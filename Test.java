@@ -1,9 +1,15 @@
 public class Test {
+	static int a = 10;
+	static int b = 20;
+	static int c;
+
+	public static int add() {
+		return c = a + b;
+	}
+
 	public static void main(String[] args) {
-		int a = 10;
-		int b = 20;
-		int c = a+b;
-		System.out.println(c);
+
+		System.out.println(add());
 	}
 
 }
